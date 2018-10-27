@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     private String TAG = "MainActivity";
     BluetoothAdapter bluetoothAdapter;
     Handler handler = new Handler();
+
     BluetoothLeAdvertiser mBluetoothLeAdvertiser;
 
     @Override
