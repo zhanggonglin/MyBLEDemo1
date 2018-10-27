@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="要广播的数据："
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_height="40dp" />
+
+    <EditText
+        android:id="@+id/edit_data"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:hint="输入16进制字符串（0-9，A-F）"
+        android:textColorHint="@color/text_light_gray"
+        android:layout_height="40dp" />
+<View
+    android:layout_width="match_parent"
+    android:background="@color/text_light_gray"
+    android:layout_marginBottom="20dp"
+    android:layout_height="0.7dp"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+android:onClick="startAction"
+        android:text="开始广播"
+        android:background="@color/blue"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:text="停止广播"
+        android:onClick="stopAction"
+        android:background="@color/blue"
+        android:layout_height="50dp" />
+</LinearLayout>
